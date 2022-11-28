@@ -7,7 +7,8 @@
 }
 
 body{
-    background-image: url(images/1278235.jpg);
+    background-image: url(images/ter.jpg);
+    background-size: cover;
   
 }
 
@@ -115,7 +116,7 @@ h2{
    background-image: url(images/ter.jpg);
     }
 
-    
+
     h1{
        width: 100%;
         margin-top: 90px;
