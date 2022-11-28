@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+    background: url(images/ter.jpg);
+    background-size: cover;
+    background-position-y:-50px;
+    background-repeat: none;
+    
+}
+
+.login-box{
+   margin-top:150px;
+  margin-left: 120px;
+
+}
+
+h2{
+   
+    top: 5%;
+  Left: 10%;
+  background: linear-gradient(90deg, #df1111, #0f38dc, rgba(195, 0, 255, 0.867),gold,whitesmoke);
+  background-size: 400%;
+  font-size: 50px;
+  font-family: anton;
+  Letter-spacing: 2px;
+  font-weight: 60;
+  word-spacing: 15px;
+  -webkit-text-fill-color: transparent;
+  opacity: 1;
+  -webkit-background-clip: text;
+animation: animate 10s linear infinite;
+
+}
+
+@keyframes animate{
+    0% {
+    background-position:0 100%;
+    }
+    25%{
+      background-position: 100% 0;
+    }
+    100%{
+    background-position: 0 100%;
+    }
+}
+
+.form{
+    position: absolute;
+    
+	transform: translate(-50%,-50%);
+	width: 480px;
+    height:400px;
+	padding: 50px 30px;
+	box-shadow:7px 7px 60px black;
+	border-radius:100px;
+    font-family:anton;
+    margin-top:210px;
+    margin-left: 210px;
+    letter-spacing:.5px;
+    background-color: white;
+    
+}
+
+.form input{
+    padding: 10px ;
+	font-size: 16px;
+	display: block;
+	width: 100%;
+	color:#000;
+	outline: none;
+	border:black;
+	margin: 1em 0;
+    border-radius: 30px;
+   background-color: wheat;
+    
+}
+
+.form  .submit{
+   border: solid cornflowerblue;
+    margin-left: 160px;
+    padding: 9px;
+    cursor: pointer;
+    margin-top: 30px;
+    letter-spacing: 1px;
+}
+
+.submit:hover{
+    background-color:cornflowerblue;
+    color: aliceblue;
+    transition: .5s;
+    letter-spacing: 2px;
+}
+
+input:active{
+   border-color: #ff0000;
+}
+
+@media(max-width:551px){
+    h2{
+        margin-right: 20px;
+        margin-top: -90px;
+        
+    }
+    .form{
+        margin-left: 140px;
+       border-radius: ;
+       
+        
+    }
+   
+    
+}
+
+
+@media(max-width:548px){
+    h2{
+        margin-right: 20px;
+        margin-top: -90px;
+        
+    }
+    .form{
+        margin-left: 100px;
+   
+       
+        
+    }
+   
+    
+}
+@media(max-width:396px){
+    h2{
+        margin-right: 0px;
+        margin-top: 90px;
+        margin-left: -80px;
+        font-size: 30px;
+        
+    }
+    .form{
+        margin-bottom: 20px;
+      position: fixed;
+      width:310px;
+      margin-left: 70px;
+      background-color: white;
+       
+        
+    }
+    .form .submit{
+        margin-left: 80px
+        
+    }
+ 
+   body{
+    background-image: url(images/ter.jpg);
+    background-size: cover;
+   }
+    
+}

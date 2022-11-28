@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+    background-image:url(images/176936.jpg);
+}
+
+h1{
+    margin-top: 220px;
+    margin-left: 100px;
+     font-size:60px;
+     color:white;
+     
+     font-family: anton;
+     letter-spacing: 1px;
+ }
+
+ .button .btna{
+    margin-top: 10px;
+    margin-left: 91px;
+    width: 150px;
+    border:solid .1px;
+   padding: 20px;
+   cursor:pointer;
+   background-color: rgb(33, 200, 219);
+   border-radius: 10px;
+   font-size: 20px;
+   font-family: sans-serif;
+ }
+ .buttonb .btnb{
+    margin-top: 100px;
+    margin-left: 100px;
+    border:solid .1px;
+   padding: 20px;
+   cursor:pointer;
+   background-color: rgb(33, 200, 219);
+   border-radius: 10px;
+   font-size: 20px;
+   font-family: sans-serif;
+ }
+
+
+ .button .btna:hover{
+    background-color: white;
+    transition: .5s;
+ }
+
+ @media(max-width:420px){
+    h1{
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+    .button .btna{
+        margin-top: 50px;
+        margin-bottom: 30px;
+       
+    }
+    .button .btna #logout{
+        margin-top: 50px;
+        margin-bottom: 30px;
+       
+    }
+}

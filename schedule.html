@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schedule</title>
+    <link rel="stylesheet" href="schedule.css">
+</head>
+<body>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init(
+      {
+  offset: 120, 
+  delay: 0, 
+  duration: 700, 
+  easing: 'ease',
+  once: false, 
+  mirror: false, 
+  anchorPlacement: 'top-bottom',
+
+}
+    );
+  </script>
+    <header>
+        <form action="work.html" method="POST">
+            <input type="button" id="homee" value="HOME">
+            
+        </form>
+    </header>
+    <div data-aos="slide-right">
+    <h1>SCHEDULING</h1></div>
+    <center>
+        
+        <form>
+            <div data-aos="fade-up">
+        <label><h2>Enter the date and time!</h2></label></div><br>
+        <div data-aos="zoom-in-down">
+        <input type="datetime-local" name="" class="text">
+        </div>
+    </form>
+    </center>
+    <div data-aos="zoom-in-up">
+    <form>
+        <input type="button" id="submit" value="SUBMIT">
+        
+    </form>
+</div>
+        
+    
+</body>
+</html>
