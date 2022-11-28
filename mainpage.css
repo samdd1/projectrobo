@@ -111,20 +111,20 @@ h2{
 }
 
 @media(max-width:420px){
-    body{
-        background:fixed;
-    }
+   
     h1{
-
+       width: 100%;
         margin-top: 90px;
         font-size: 50px;
         margin-left:70px;
         
     }
     h2{
+        width: 100%;
         display: none;
     }
     h3{
+        width:100%;
         margin-bottom:150px;
         margin-left:180px;
         font-family: sans-serif;
@@ -134,7 +134,7 @@ h2{
 p{
     margin-bottom: 50px;
     margin-top: -100px;
-  
+  width: 100%;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size:20px;
     border: solid .1px;
