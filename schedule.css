@@ -76,7 +76,7 @@ h2{
 }
 
 
-@media(max-width:420px){
+@media(max-width:396px){
     h2{
        margin-top: 190px;
        font-size: 40px;
